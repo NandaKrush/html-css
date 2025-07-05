@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fontesite';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(132, 225, 173);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    background-color: white;
+    text-indent: 20px;
+    padding: 10px;
+    margin: 0px 20px;
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(55, 194, 116), rgb(35, 71, 35));
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+}
+
+#titulo {
+    color: green;
+    font-family: 'fontesite';
+}
+
+header > h4 {
+    font-size: small;
+}
+
+header > nav {
+    text-align: left;
+    padding: 20px 1px 1px 1px;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: rgb(245, 52, 225);
+    text-decoration: underline;
+}
+
+.subtitulo {
+    background-color: rgba(132, 225, 172, 0.219);
+    color: green;
+    font-family: 'fontesite';
+}
+
+aside.media {
+    background-color: rgb(16, 66, 16);
+    text-align: center;
+}
+
+#final {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+    
+    margin: 0px 20px 0px 20px;
+    padding: 10px
+
+}
+
+.paragrafo-final {
+    background-color: rgb(216, 253, 241);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.144);
+    padding: 0px 0px 10px 0px;
+}
+
+.paragrafo-final > h4 {
+    background-color: rgb(44, 182, 136);
+    border: 10px solid rgb(44, 182, 136);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ultimo-final {
+    border: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: green;
+}
