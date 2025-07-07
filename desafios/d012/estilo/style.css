@@ -8,6 +8,11 @@
     --fonte-texto: 'Sriracha', Arial, Verdana, Helvetica, sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     background-color: black;
     color: white;
@@ -40,7 +45,7 @@ main {
     padding: 0px 0px 30px 30px;
 }
 
-.branco {
+.normal {
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
