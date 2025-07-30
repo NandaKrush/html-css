@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsa modi laboriosam sint? Esse tempore quaerat earum et natus reiciendis eius, nihil modi assumenda illum distinctio fuga quisquam ea impedit.</p>
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae tempore animi, provident possimus illum suscipit iste sed incidunt reprehenderit, ad modi et eveniet consectetur! Sed ducimus corrupti repellendus nulla aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nostrum expedita sunt laboriosam temporibus atque praesentium dolorem sit, corporis officia commodi? Eaque repellat aliquam fugit debitis magnam. Ipsa, quo impedit!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima </h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit qui perferendis dolorem reprehenderit voluptatibus nam accusantium sapiente atque culpa error, voluptatum aliquid nostrum, voluptate provident facere quo eligendi saepe! lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam voluptatibus corporis possimus repellat voluptatem facere harum eos illo perferendis sequi, nisi ipsam. Dolore eligendi laudantium aperiam impedit aut sit? </p> <img src='imagens/cavalo.png'>"> " frameborder="0">
+        <p>Infelizmente seu navegador não é compatível</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit qui perferendis dolorem reprehenderit voluptatibus nam accusantium sapiente atque culpa error, voluptatum aliquid nostrum, voluptate provident facere quo eligendi saepe! lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam voluptatibus corporis possimus repellat voluptatem facere harum eos illo perferendis sequi, nisi ipsam. Dolore eligendi laudantium aperiam impedit aut sit?
+    </p>
+</body>
+</html>
